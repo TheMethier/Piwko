@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root
+{
+--tło: orange;
+--kolcz: rgb(13, 14, 13);
+--czc: 'Roboto';
+}
+body
+{align-items: center;
+    background-color: var(--tło);
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+flex-direction: column;
+justify-content: center;
+}
+#Startscreen
+{
+    background-color: var(--tło);
+    width: 100%;
+
+}
+.Obraz
+{margin-right:10px;
+
+    width: 400px;
+    height:400px;}
+
+#Choose{
+    font-family: var(--czc);
+    color: var(--kolcz);
+    font-size: 50px;
+
+}
+#C
+{
+width:150px;
+}
+#tekst{
+    margin-left: 30%;
+
+    height:100px;
+    width:600px;
+    font-size: 100px;
+}
+#oo
+{
+    height: 100px;
+    width:100px;
+    background-color: var(--kolcz);
+    color:aliceblue;
+
+}
+#oo:hover{
+    opacity: 50%;
+
+}

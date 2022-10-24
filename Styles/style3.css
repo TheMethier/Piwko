@@ -1,0 +1,46 @@
+:root
+{
+--tło: orange;
+--kolcz: rgb(13, 14, 13);
+--czc: 'Roboto';
+--wcz: 10vh;
+}
+body
+{
+    background-color: var(--tło);
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+flex-direction: column;
+
+}
+#Startscreen
+{
+position: relative;
+    background-color: var(--tło);
+    width: 100%;
+}
+
+#piwko {
+    position: absolute;
+    transform:  scale(1);
+    top:15%;
+left: 50%;
+}
+ img{
+    width:50vh;
+    height:50vh;
+    cursor: pointer;
+}
+#Score
+{ font-family: var(--czc);
+    color: var(--kolcz);
+    font-size: var(--wcz);
+    position: absolute;
+    left:40%;
+    top:70vh;
+
+}
+

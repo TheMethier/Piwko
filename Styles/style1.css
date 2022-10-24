@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root
+{
+--Piwo: url("/Resources/69b6f5f398e4c233e17b47f02519dfba.jpg");
+--tło: orange;
+--kolcz: rgb(232, 237, 231);
+}
+body
+{
+    margin: 0px;
+cursor: pointer;
+}
+.side
+{
+    display: grid;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+
+}
+#Left-side
+{place-items: top;
+    background-color: var(--tło);
+width:57%;
+z-index: 2;
+}
+#Right-side
+{   
+background-color: rgb(19, 18, 18); /*zmień na obrazek*/
+    background-image: var(--Piwo);
+
+}
+ #Title
+{font-weight: bolder;
+    font-family: 'Rubic', sans-serif;
+color:var(black) ;
+font-size: 100px;
+margin-left: 10vh;
+animation: test 15s;
+}
+@keyframes test{
+    from{margin-left: -100vh;}
+    to{margin-left: 10vh;}
+}
+
+ #Left-side #Logo{
+    position: absolute;
+margin-top: 17%;
+margin-left: 10%;
+}
+.button
+{justify-self: right;
+    background-color: rgb(240, 241, 241);
+    cursor: pointer;
+    font-size: 40px;
+    padding: 15px 32px;
+    display: inline-block;
+    width:70vh;
+    height:20vh;
+    margin-right:10vh;
+border-radius: 8px;
+animation: fadein 15s;
+}
+#titleborder
+{
+    justify-self: left, top;
+    height:20vh;
+    padding-bottom: 5vh;
+    background-color: aliceblue;
+    width: 100vh;
+    animation: wjazd 10s;
+}
+@keyframes wjazd{
+    from{width: 0vh;}
+    to {width: 100vh;}
+}
+@keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+}
+ #Start
+{
+margin-top: 10vh;
+margin-bottom: 30vh;
+
+}
+#leader
+{
+    margin-top: -25vh;
+    margin-bottom: 1vh;
+}
+
+.button:hover{
+opacity: 50%;
+}
