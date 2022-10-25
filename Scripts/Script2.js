@@ -8,11 +8,10 @@ f.innerHTML=`<div id="piwko">
 const piwko=document.getElementById("piwko");
 
 piwko.onclick= function(){
-    score+=1;
+    score+=1;/*Popraw generowanie + dodqj kąt + dodaj komentarze w grze + dodaj komenty*/
 document.getElementById("Score").innerHTML="Score: "+score;
 piwko.style.left=`${Math.floor(Math.random()*70)+10}`+"%";
 piwko.style.top=`${Math.floor(Math.random()*window.innerHeight)-300}`+"px";
-
 };
 
 

@@ -24,34 +24,48 @@ justify-content: center;
 
 }
 .Obraz
-{margin-right:10px;
-
+{
+left:10vh;
     width: 400px;
     height:400px;}
 
 #Choose{
     font-family: var(--czc);
     color: var(--kolcz);
-    font-size: 50px;
+    font-size: 7vh;
 
+}
+#A{ position: absolute;
+    left:40vh;
+    
+
+}
+#B{
+    position: absolute;
+    left:75vh
 }
 #C
-{
-width:150px;
+{    position: absolute;
+
+
+left:110vh;
 }
 #tekst{
-    margin-left: 30%;
-
+    position: absolute;
+    left: 30%;
+top:74vh;
     height:100px;
     width:600px;
     font-size: 100px;
 }
 #oo
-{
+{position:absolute;
     height: 100px;
     width:100px;
     background-color: var(--kolcz);
     color:aliceblue;
+    top:74vh;
+    left: 150vh;
 
 }
 #oo:hover{
