@@ -11,7 +11,7 @@ piwko.onclick= function(){
     score+=1;
 document.getElementById("Score").innerHTML="Score: "+score;
 piwko.style.left=`${Math.floor(Math.random()*70)+10}`+"%";
-piwko.style.top=`${Math.floor(Math.random()*100)-50}`+"vh";
+piwko.style.top=`${Math.floor(Math.random()*75)}`+"vh";
 piwko.style.transform="rotate("+`${Math.random()*360}`+"deg)";
 };
 
