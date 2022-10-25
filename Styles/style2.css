@@ -26,8 +26,8 @@ justify-content: center;
 .Obraz
 {
 left:10vh;
-    width: 400px;
-    height:400px;}
+height:55vh;
+width:55vh}
 
 #Choose{
     font-family: var(--czc);
@@ -37,7 +37,7 @@ left:10vh;
 }
 #A{ position: absolute;
     left:40vh;
-    
+
 
 }
 #B{
@@ -54,14 +54,14 @@ left:110vh;
     position: absolute;
     left: 30%;
 top:74vh;
-    height:100px;
-    width:600px;
-    font-size: 100px;
+    height:15vh;
+    width:85vh;
+    font-size: 15vh;
 }
 #oo
 {position:absolute;
-    height: 100px;
-    width:100px;
+    height: 15vh;
+    width:15vh;
     background-color: var(--kolcz);
     color:aliceblue;
     top:74vh;

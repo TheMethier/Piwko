@@ -56,8 +56,7 @@ margin-left: 10%;
 {justify-self: right;
     background-color: rgb(240, 241, 241);
     cursor: pointer;
-    font-size: 40px;
-    padding: 15px 32px;
+    font-size: 5vh;
     display: inline-block;
     width:70vh;
     height:20vh;
@@ -97,4 +96,9 @@ margin-bottom: 30vh;
 
 .button:hover{
 opacity: 50%;
+}
+#Logo{
+    position: absolute;
+    width: 80vh;
+    height:80vh;
 }

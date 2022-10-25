@@ -8,10 +8,11 @@ f.innerHTML=`<div id="piwko">
 const piwko=document.getElementById("piwko");
 
 piwko.onclick= function(){
-    score+=1;/*Popraw generowanie + dodqj kąt + dodaj komentarze w grze + dodaj komenty*/
+    score+=1;
 document.getElementById("Score").innerHTML="Score: "+score;
 piwko.style.left=`${Math.floor(Math.random()*70)+10}`+"%";
-piwko.style.top=`${Math.floor(Math.random()*window.innerHeight)-300}`+"px";
+piwko.style.top=`${Math.floor(Math.random()*100)-50}`+"vh";
+piwko.style.transform="rotate("+`${Math.random()*360}`+"deg)";
 };
 
 
